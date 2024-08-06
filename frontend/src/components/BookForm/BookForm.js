@@ -21,7 +21,6 @@ const BookForm = () => {
         title: title,
         author: author,
       };
-      console.log(addBook(book));
       dispatch(addBook(book));
 
       setTitle('');
