@@ -51,6 +51,11 @@
   align-items: center;
 }
 
+.book-list .book-actions span {
+  display: flex;
+  align-items: center;
+}
+
 .book-list .star-icon {
   width: 24px;
   height: 24px;
