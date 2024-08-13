@@ -72,7 +72,8 @@ const BookList = () => {
               <div className="book-info">
                 {++i}.{' '}
                 <strong>{highlightMatch(book.title, titleFilter)}</strong> by{' '}
-                {highlightMatch(book.author, authorFilter)}
+                {highlightMatch(book.author, authorFilter)} (sourсe:{' '}
+                {book.sourсe})
               </div>
               <div className="book-actions">
                 <span onClick={() => handleToggleFavorite(book.id)}>
