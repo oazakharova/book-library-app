@@ -20,6 +20,9 @@ function App() {
         </div>
       </main>
       <Error />
+      <footer className="app-footer">
+        <h4> &copy; 2024 - Book Library App</h4>
+      </footer>
     </div>
   );
 }
