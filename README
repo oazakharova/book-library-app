@@ -1,0 +1,2 @@
+Adding your own book, a random book from a local json file, or a random book via API (a simple express server) with a time delay
+Filtering books, adding to favorites and deleting from favorites, deleting the book from the created list of books
